@@ -1,0 +1,6 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: applications/luci-app-dormnet/htdocs/luci-static/resources/view/dormnet/form.js:38
+msgid "A boolean option"
+msgstr ""
