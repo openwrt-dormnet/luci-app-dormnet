@@ -4,7 +4,7 @@
 include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:=LuCI Dormnet module
-LUCI_DEPENDS:=+luci-base
+LUCI_DEPENDS:=+luci-base +dormnet
 LUCI_PKGARCH:=all
 
 PKG_LICENSE:=AGPL-3.0

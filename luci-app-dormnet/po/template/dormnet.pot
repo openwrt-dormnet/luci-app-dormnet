@@ -1,6 +1,47 @@
-msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8"
+msgid "DormNet"
+msgstr ""
 
-#: applications/luci-app-dormnet/htdocs/luci-static/resources/view/dormnet/form.js:38
-msgid "A boolean option"
+msgid "Manage your campus network with DormNet on OpenWrt."
+msgstr ""
+
+msgid "Basic Setting"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Restart"
+msgstr ""
+
+msgid "Running Status"
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
+msgid "Not Running"
+msgstr ""
+
+msgid "Listen address"
+msgstr ""
+
+msgid "Work mode"
+msgstr ""
+
+msgid "Master Mode"
+msgstr ""
+
+msgid "Peer Mode"
+msgstr ""
+
+msgid "Use software-defined networking"
+msgstr ""
+
+msgid "Select when you need multiple geographically dispersed devices to use the campus network simultaneously."
+msgstr ""
+
+msgid "EasyTier"
+msgstr ""
+
+msgid "ZeroTier"
 msgstr ""

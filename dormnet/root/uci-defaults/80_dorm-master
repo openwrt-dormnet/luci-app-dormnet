@@ -1,8 +1,8 @@
 #!/bin/sh
 
 touch /etc/config/dorm-master
-uci set dorm-master.common='common'
-uci set dorm-master.common.listen-host='0.0.0.0:10721'
+uci set dorm-master.basic='basic'
+uci set dorm-master.basic.listen_host='127.0.0.1:10721'
 
 uci set dorm-master.airkv='airkv'
 uci set dorm-master.airkv.store_path='/etc/dormnet/airkv'

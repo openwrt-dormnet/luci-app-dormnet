@@ -1,7 +1,7 @@
 {
-  "admin/dormnet/": {
-    "title": "校园网助手",
-    "order": 60,
+  "admin/services/dormnet": {
+    "title": "DormNet",
+    "order": 99,
     "action": {
       "type": "firstchild"
     },
@@ -9,13 +9,12 @@
       "acl": [ "luci-app-dormnet" ]
     }
   },
-
-  "admin/dormnet/form": {
-    "title": "Form View",
+  "admin/services/dormnet/basic": {
+    "title": "Basic Setting",
     "order": 1,
     "action": {
       "type": "view",
-      "path": "dormnet/form"
+      "path": "dormnet/basic"
     }
   }
 }

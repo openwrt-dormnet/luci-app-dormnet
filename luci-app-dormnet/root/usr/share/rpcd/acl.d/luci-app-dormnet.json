@@ -1,0 +1,23 @@
+{
+  "luci-app-dormnet": {
+    "description": "Grant UCI and RPC access to LuCI app DormNet",
+    "read": {
+      "ubus": {
+        "luci.dormnet": [
+          "build_info",
+          "extra_args",
+          "list_target",
+          "status"
+        ]
+      },
+      "uci": [
+        "dormnet"
+      ]
+    },
+    "write": {
+      "uci": [
+        "dormnet"
+      ]
+    }
+  }
+}
