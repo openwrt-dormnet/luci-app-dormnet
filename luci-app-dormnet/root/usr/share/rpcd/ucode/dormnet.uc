@@ -25,17 +25,16 @@ const methods = {
         }
     },
 
-    extra_args: {
-        args: { target: 'target' },
+    extra_args_account: {
+        args: { account: 'account' },
         call: function(req) {
-            const target = req.args?.target ?? "";
-            const command = `dormnet -extra-args=${target}`;
+            const account = req.args?.account ?? "";
+            const command = `dormnet -extra-args-account=${account}`;
             return json_process(command);
         }
     },
 
     list_target: {
-        args: { target: 'target' },
         call: function() {
             const command = `dormnet -list-targets`;
             return json_process(command);

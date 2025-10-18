@@ -45,3 +45,39 @@ msgstr ""
 
 msgid "ZeroTier"
 msgstr ""
+
+msgid "Account Setting"
+msgstr ""
+
+msgid "You can add one or more accounts for logging into the campus network."
+msgstr ""
+
+msgid "Account List"
+msgstr ""
+
+msgid "Edit account"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Number of bound interfaces"
+msgstr ""
+
+msgid "Bound Interfaces"
+msgstr ""
+
+msgid "Chongqing University of Posts and Telecommunications"
+msgstr ""
+
+msgid "Interface"
+msgstr ""

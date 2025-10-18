@@ -24,6 +24,19 @@ const callDormnetStatus = rpc.declare({
     expect: { '': {} }
 });
 
+const callDormnetSupportedTargets = rpc.declare({
+    object: 'luci.dormnet',
+    method: 'list_target',
+    expect: { '': {} }
+});
+
+const callDormnetExtraArgsAccount = rpc.declare({
+    object: 'luci.dormnet',
+    method: 'extra_args_account',
+    params: [ 'account' ],
+    expect: { '': {} }
+});
+
 // noinspection JSAnnotator
 return baseclass.extend({
     buildInfo: function () {
@@ -31,6 +44,12 @@ return baseclass.extend({
     },
     status: function () {
         return callDormnetStatus();
+    },
+    supportedTargets: function () {
+        return callDormnetSupportedTargets();
+    },
+    extraArgsAccount: function (account) {
+        return callDormnetExtraArgsAccount(account);
     },
     restart: function () {
         return callRCInit('dormnet', 'reload');

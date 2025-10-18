@@ -16,5 +16,20 @@
       "type": "view",
       "path": "dormnet/basic"
     }
+  },
+  "admin/services/dormnet/account": {
+    "title": "Account Setting",
+    "order": 2,
+    "action": {
+      "type": "view",
+      "path": "dormnet/account"
+    }
+  },
+  "admin/services/dormnet/account/edit": {
+    "order": 1,
+    "action": {
+      "type": "view",
+      "path": "dormnet/account_edit"
+    }
   }
 }

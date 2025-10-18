@@ -40,7 +40,7 @@ return view.extend({
 
         o = s.option(form.Button, 'restart', _('Restart'));
         o.description = _("Restart manually")
-        o.depends('enabled', '1')
+        o.depends('enabled', '1');
 
         o = s.option(form.DummyValue, '_running_status', _('Running status'));
         o.cfgvalue = function () {
@@ -54,8 +54,8 @@ return view.extend({
 
         o = s.option(form.ListValue, 'work_mode', _('Work mode'));
         o.default = 'master';
-        o.value('master', _('Master Mode'))
-        o.value('peer', _('Peer Mode'))
+        o.value('master', _('Master Mode'));
+        o.value('peer', _('Peer Mode'));
 
         o = s.option(form.Flag, 'use_sd_network', _('Use software-defined networking'));
         o.description = _("Select when you need multiple geographically dispersed devices to use the campus network simultaneously.")
@@ -75,5 +75,5 @@ return view.extend({
         o.default = "127.0.0.1:10721";
 
         return m.render();
-    },
+    }
 });
