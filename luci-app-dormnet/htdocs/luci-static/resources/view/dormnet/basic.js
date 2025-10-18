@@ -47,8 +47,8 @@ return view.extend({
             return renderStatus(status.data.running);
         };
         poll.add(function () {
-            return L.resolveDefault(dormnet.status()).then(function (data) {
-                updateStatus(document.getElementById('running_status'), data.running);
+            return L.resolveDefault(dormnet.status()).then(function (status) {
+                updateStatus(document.getElementById('running_status'), status.data.running);
             });
         });
 
