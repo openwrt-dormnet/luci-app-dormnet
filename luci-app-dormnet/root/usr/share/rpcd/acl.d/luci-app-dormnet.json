@@ -7,7 +7,8 @@
           "build_info",
           "extra_args_account",
           "list_target",
-          "status"
+          "status",
+          "logs"
         ]
       },
       "uci": [

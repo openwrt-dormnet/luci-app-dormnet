@@ -48,6 +48,13 @@ const methods = {
         }
     },
 
+    logs: {
+        call: function() {
+            const command = `dormnet -logs`;
+            return json_process(command);
+        }
+    },
+
     restart: {
         call: function () {
             const command = `/etc/init.d/dormnet restart`;

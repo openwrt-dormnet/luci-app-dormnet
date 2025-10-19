@@ -37,6 +37,12 @@ const callDormnetExtraArgsAccount = rpc.declare({
     expect: { '': {} }
 });
 
+const callDormnetLogs = rpc.declare({
+    object: 'luci.dormnet',
+    method: 'logs',
+    expect: { '': {} }
+});
+
 // noinspection JSAnnotator
 return baseclass.extend({
     buildInfo: function () {
@@ -50,6 +56,9 @@ return baseclass.extend({
     },
     extraArgsAccount: function (account) {
         return callDormnetExtraArgsAccount(account);
+    },
+    logs: function () {
+        return callDormnetLogs();
     },
     restart: function () {
         return callRCInit('dormnet', 'reload');
