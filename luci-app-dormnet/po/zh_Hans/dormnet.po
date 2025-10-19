@@ -1,5 +1,113 @@
 msgid "DormNet"
-msgstr "校园网助手"
+msgstr "DormNet"
+
+msgid "Manage your campus network with DormNet on OpenWrt."
+msgstr "使用 DormNet 在 OpenWrt 上管理你的校园网！"
 
 msgid "Basic Setting"
 msgstr "基本设置"
+
+msgid "Enabled"
+msgstr "启用"
+
+msgid "Restart"
+msgstr "重启"
+
+msgid "Running Status"
+msgstr "运行状态"
+
+msgid "Running"
+msgstr "正在运行"
+
+msgid "Not Running"
+msgstr "已停止"
+
+msgid "Listen address"
+msgstr "监听地址"
+
+msgid "Work mode"
+msgstr "工作模式"
+
+msgid "Master Mode"
+msgstr "主节点模式"
+
+msgid "Peer Mode"
+msgstr "叶节点模式"
+
+msgid "Use software-defined networking"
+msgstr "启用组网"
+
+msgid "Select when you need multiple geographically dispersed devices to use the campus network simultaneously."
+msgstr "当你需要让多个不同地理位置的设备同时使用校园网时勾选此选项。"
+
+msgid "EasyTier"
+msgstr "EasyTier"
+
+msgid "ZeroTier"
+msgstr "ZeroTier"
+
+msgid "Account Setting"
+msgstr "账号设置"
+
+msgid "You can add one or more accounts for logging into the campus network."
+msgstr "你可以添加一个或多个账号用于校园网认证。"
+
+msgid "Account List"
+msgstr "账号列表"
+
+msgid "Edit account"
+msgstr "编辑账号"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "Username"
+msgstr "用户名"
+
+msgid "Password"
+msgstr "密码"
+
+msgid "Number of bound interfaces"
+msgstr "已绑定的接口数量"
+
+msgid "Bound Interfaces"
+msgstr "已绑定的接口"
+
+msgid "Interface"
+msgstr "接口"
+
+## cqupt start ##
+msgid "Chongqing University of Posts and Telecommunications"
+msgstr "重庆邮电大学"
+
+msgid "Operator"
+msgstr "运营商"
+
+msgid "Operator export"
+msgstr "运营商出口"
+
+msgid "CquptClientOperatorTelecom"
+msgstr "中国电信"
+
+msgid "CquptClientOperatorCmcc"
+msgstr "中国移动"
+
+msgid "CquptClientOperatorUnicom"
+msgstr "中国联通"
+
+msgid "Client type"
+msgstr "客户端类型"
+
+msgid "Client type used during login"
+msgstr "登录时使用的客户端类型"
+
+msgid "CquptClientTypePC"
+msgstr "PC"
+
+msgid "CquptClientTypeMobile"
+msgstr "移动端"
+##  cqupt end  ##
+

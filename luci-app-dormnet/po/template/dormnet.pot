@@ -76,8 +76,38 @@ msgstr ""
 msgid "Bound Interfaces"
 msgstr ""
 
+msgid "Interface"
+msgstr ""
+
+## cqupt start ##
 msgid "Chongqing University of Posts and Telecommunications"
 msgstr ""
 
-msgid "Interface"
+msgid "Operator"
 msgstr ""
+
+msgid "Operator export"
+msgstr ""
+
+msgid "CquptClientOperatorTelecom"
+msgstr ""
+
+msgid "CquptClientOperatorCmcc"
+msgstr ""
+
+msgid "CquptClientOperatorUnicom"
+msgstr ""
+
+msgid "Client type"
+msgstr ""
+
+msgid "Client type used during login"
+msgstr ""
+
+msgid "CquptClientTypePC"
+msgstr ""
+
+msgid "CquptClientTypeMobile"
+msgstr ""
+##  cqupt end  ##
+
