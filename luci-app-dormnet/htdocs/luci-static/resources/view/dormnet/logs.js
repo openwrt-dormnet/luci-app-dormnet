@@ -19,7 +19,7 @@ return view.extend({
         m = new ui.Textarea(logs, {
             readonly: true,
             monospace: true,
-            rows: 50,
+            rows: 35,
         })
 
         poll.add(function () {
