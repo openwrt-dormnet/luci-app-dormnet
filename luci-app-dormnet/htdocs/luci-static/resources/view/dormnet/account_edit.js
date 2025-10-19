@@ -80,6 +80,11 @@ return view.extend({
             if (arg.modalonly) {
                 o.modalonly = true;
             }
+            if (arg.type === 'ListValue') {
+                for (const item of arg.candidates) {
+                    o.value(item.value, _(item.name))
+                }
+            }
         }
 
         return m.render();
